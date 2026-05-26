@@ -1,14 +1,21 @@
-Welcome to your new dbt project!
+# dbt Fundamentals Project
 
-### Using the starter project
+This repository is a completed `dbt Fundamentals` learning project developed in VS Code. It is structured as a concise portfolio example that demonstrates core dbt development workflows and documentation practices.
 
-Try running the following commands:
-- dbt build
+## What this project demonstrates
 
+- dbt models
+- sources
+- source freshness
+- generic data tests
+- singular data tests
+- dbt documentation
+- dbt docs generation via CLI
+- Git-based workflow
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](http://slack.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## Supporting documentation
+
+The [`docs/setup`](docs/setup) folder includes:
+
+- [`windows_dbt_no_admin.md`](docs/setup/windows_dbt_no_admin.md)
+- [`dbt_docs_cli_preview.md`](docs/setup/dbt_docs_cli_preview.md)
